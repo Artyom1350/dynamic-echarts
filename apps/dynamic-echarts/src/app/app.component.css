@@ -1,0 +1,23 @@
+.layout {
+  min-height: 100svh;
+  display: flex;
+
+  .wrapper {
+    display: flex;
+    flex: 1 1;
+    padding: 50px;
+
+    .chart-container {
+      display: flex;
+      flex: 1 1;
+      overflow: hidden;
+      border: 1px solid #B4BDD9;
+      border-radius: 10px;
+      padding: 10px;
+
+      #chart {
+        flex: 1 1;
+      }
+    }
+  }
+}
